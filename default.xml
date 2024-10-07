@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="https://github.com/" />
+  <default revision="main" remote="origin" />
+
+  <project path="app"
+           name="X-DPU/opendpu_app.git" revision="main" remote="origin" />
+  <project path="app/mk"
+           name="HongshiTan/rabs.git" revision="main" remote="origin" />
+  <project path="bsp"
+           name="X-DPU/opendpu_bsp.git" revision="main" remote="origin" />
+
+
+</manifest>
