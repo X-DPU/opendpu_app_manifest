@@ -126,4 +126,9 @@ set_param ips.validateJSONSchemaRead 0 ; set_param ips.validateJSONSchemaWrite 0
 
 
 
+# ttyusb
+
+sudo apt install linux-modules-extra-`uname -r`
+sudo modprobe ftdi_sio
+
 https://adaptivesupport.amd.com/s/question/0D54U00007HmnBTSAZ/how-to-fix-error-ipflow-198166?language=en_US
